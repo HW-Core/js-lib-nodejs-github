@@ -1,10 +1,10 @@
 hw2.define([
     'https',
-    'hw2!PATH_JS_LIB:nodejs/github/include.js'
+    'hw2!{PATH_JS_LIB}nodejs/github/include.js'
 ], function GitHub (https) {
     var $ = this;
 
-    return $.NodeJs.GitHub = $.class([
+    return $.NodeJs.GitHub = $.class(
         $.private({
             token: null
         }),
@@ -75,5 +75,5 @@ hw2.define([
                 request.end();
             }
         })
-    ]);
+    );
 });
