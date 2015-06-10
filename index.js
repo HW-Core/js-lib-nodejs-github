@@ -5,9 +5,9 @@
 
 'use strict';
 
-hw2.define([
-    'hw2!{PATH_JS_LIB}nodejs/github/include.js',
-    'hw2!{PATH_JS_LIB}nodejs/github/GitHub.js'
+hwc.define([
+    'hwc!{PATH_JS_LIB}nodejs/github/include.js',
+    'hwc!{PATH_JS_LIB}nodejs/github/GitHub.js'
 ],function () {
     var $ = this;
 });
