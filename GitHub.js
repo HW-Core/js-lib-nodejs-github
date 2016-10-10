@@ -1,6 +1,6 @@
 hwc.define([
     'https',
-    'hwc!{PATH_JS_LIB}nodejs/github/include.js'
+    'hwc!{PATH_JS_LIB}nodejs-github/include.js'
 ], function GitHub (https) {
     var $ = this;
 
